@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SiGNL</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet" />
+		<!-- CSS Style Sheet -->
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<!-- Favicon -->
+		<link rel='icon' href='favicon.jpg' type='image/x-icon' />
+	</head>
+
+	<body>
+			<nav>
+				<div class="logo">
+					<a href="index.html">SiGNL</a>
+				</div>
+				<ul class="nav-links">
+					<li>
+						<a href="index_bio.html">Bio</a>
+					</li>
+					<li>
+						<a href="index_music.html">Music</a>
+					</li>
+					<li>
+						<a href="index_contact.html">Contact us</a>
+					</li>
+				</ul>
+				<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav> 
+
+			<div class="bg" style="background-image: url('images/bg_2.jpg');"></div>
+
+
+			<div class="center">
+				<!--
+				<a class="contact-btn" href="mailto:Help@SiGNL.co.uk">
+					<h1>Help@SiGNL.co.uk</h1>
+				</a>				
+			-->
+
+				<form class="contact-form" action="contactform.php" method="post">
+
+					<p style="font-family: Eurostile-BoldExtended; font-size: 28px; padding-left:12px;">CONTACT US</p>
+					<input type="text" name="name" placeholder="Full name">
+					<input type="text" name="mail" placeholder="Your e-mail address">
+					<input type="text" name="subject" placeholder="Subject">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button type="submit" name="submit">SEND</button>
+				</form>
+
+			</div>
+		
+			<footer>
+				<div class="footer-text"> © SiGNL 2022 </div>
+				<!--
+				<a href="#">
+					<img class="icon" src="images/Spotify_Icon_RGB_Black.png" alt="Spotify"></img>
+				</a>
+				<a href="#">
+					<img class="icon" src="images/Apple_Music_Icon_blk.svg" alt="Apple Music"></img>
+				</a>
+				-->
+				<div>
+					<a href="#">
+						<ion-icon name="logo-facebook"></ion-icon>
+					</a>
+					<a href="https://twitter.com/SiGNL_HQ">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
+					<a href="https://www.instagram.com/signl_hq/">
+						<ion-icon name="logo-instagram"></ion-icon>
+					</a>
+				</div>
+			</footer>
+
+			<script src="app.js"></script>
+			<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	</body>
+</html>
