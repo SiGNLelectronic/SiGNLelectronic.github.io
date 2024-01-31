@@ -57,7 +57,7 @@ class TextScramble {
 }
 const phrases = [
   'Communication...',
-  '2022',
+  '2024',
   'Electronic Periodic ceases',
   'SiGNL commences.'
 ]
